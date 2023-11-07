@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /api
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/feliciademo
+    username: postgres
+    password: password
+    hikari:
+      maximum-pool-size: 30
